@@ -1,13 +1,42 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FaithfulPrayer" preserve="all" />
     <type fullname="FollowInLine" preserve="all" />
     <type fullname="Health" preserve="all" />
     <type fullname="Skybull.FontAssets" preserve="all" />
+    <type fullname="Skybull.ObjectAutoRotate" preserve="all" />
+    <type fullname="Snek.AssassinRageSkill" preserve="all" />
+    <type fullname="Snek.CharacterCollectItem" preserve="all" />
+    <type fullname="Snek.CharacterConfig" preserve="all" />
     <type fullname="Snek.CharacterControl" preserve="all" />
+    <type fullname="Snek.CharacterDetector" preserve="all" />
     <type fullname="Snek.CharMove" preserve="all" />
+    <type fullname="Snek.CharSkill" preserve="all" />
+    <type fullname="Snek.CharSkillConfig" preserve="all" />
+    <type fullname="Snek.CharSkillController" preserve="all" />
+    <type fullname="Snek.CrossFireSkill" preserve="all" />
+    <type fullname="Snek.DieFlyAway" preserve="all" />
+    <type fullname="Snek.DirectionBullet" preserve="all" />
+    <type fullname="Snek.FireBullet" preserve="all" />
+    <type fullname="Snek.GoldDropItem" preserve="all" />
+    <type fullname="Snek.KnightRageSkill" preserve="all" />
+    <type fullname="Snek.MaterialFlasher" preserve="all" />
+    <type fullname="Snek.MeeleeSkill" preserve="all" />
+    <type fullname="Snek.MeleeAttack" preserve="all" />
+    <type fullname="Snek.RecruitableChar" preserve="all" />
+    <type fullname="Snek.SpellBullet" preserve="all" />
+    <type fullname="Snek.ThrowStoneSkill" preserve="all" />
+    <type fullname="Snek.TornadoBullet" preserve="all" />
+    <type fullname="Snek.TwoSideSkill" preserve="all" />
+    <type fullname="YappingPrayer" preserve="all" />
+    <type fullname="Snek.CharacterStats" preserve="nothing" serialized="true" />
+    <type fullname="Snek.DictionaryItemSize" preserve="nothing" serialized="true" />
+    <type fullname="Snek.DamageTypes" preserve="nothing" serialized="true" />
+    <type fullname="Snek.MinMaxValue" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Localization.Locale" preserve="all" />
@@ -44,24 +73,33 @@
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
